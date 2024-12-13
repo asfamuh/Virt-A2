@@ -26,7 +26,7 @@ jobs:
         with: 
           context: . 
           push: true 
-          tags: asfamuh/virt-a2.git:latest 
+          tags: muhammadash/virt-a2.git:latest 
   deploy: 
     runs-on: ubuntu-latest 
     needs: build-and-push  # Run after the build-and-push job 
